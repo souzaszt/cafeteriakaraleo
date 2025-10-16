@@ -1,0 +1,55 @@
+/* Fontes */
+.fonte-playfair { 
+    font-family: 'Playfair Display', serif; 
+}
+
+.fonte-inter { 
+    font-family: 'Inter', sans-serif; 
+}
+
+/* Utilidades */
+.pagina { 
+    display: none; 
+}
+
+.pagina.active { 
+    display: block; 
+}
+
+.link-navegacao.active { 
+    color: #8B4513; 
+    border-bottom: 2px solid #8B4513; 
+}
+
+.transicao-cores {
+    transition: color 0.3s, background-color 0.3s;
+}
+
+/* Cores personalizadas */
+.fundo-pedra-claro {
+    background-color: #fafaf9;
+}
+
+.texto-pedra-escuro {
+    color: #292524;
+}
+
+.texto-pedra-medio {
+    color: #78716c;
+}
+
+/* Elementos de destaque francês */
+.destaque-frances {
+    position: relative;
+}
+
+.destaque-frances::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 1px;
+    background: #8B4513;
+}

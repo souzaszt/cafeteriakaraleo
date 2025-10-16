@@ -1,0 +1,21 @@
+#about .conteudo {
+    min-height: 100vh;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4rem 1rem;
+}
+
+@media (min-width: 640px) {
+    #about .conteudo {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    #about .conteudo {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

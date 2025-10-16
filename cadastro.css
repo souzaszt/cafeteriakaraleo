@@ -1,0 +1,17 @@
+/* Estilos específicos para a página de cadastro */
+#signup .container-formulario {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+#signup .campo-entrada {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#signup .botao-primario {
+    background: linear-gradient(135deg, #292524 0%, #44403c 100%);
+}
+
+#signup .botao-primario:hover {
+    background: linear-gradient(135deg, #44403c 0%, #57534e 100%);
+}
